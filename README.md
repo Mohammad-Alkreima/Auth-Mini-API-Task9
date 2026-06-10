@@ -98,13 +98,13 @@ The architecture relies on the following standard ecosystem components:
 Create a `.env` file in the root directory and configure the following parameters:
 
 ```env
-PORT=3000
-MONGODB_URL="mongodb://localhost:27017/task_9"
+PORT=PortNumber
+MONGODB_URL="mongodb://localhost:27017/DataBase-Name"
 JWT_SECRET_KEY=your_jwt_secret_here
 REFRESH_JWT_SECRET_KEY=your_refresh_jwt_secret_here
-ADMIN_NAME="admin"
-ADMIN_PHONE="09999999"
-ADMIN_EMAIL="admin@admin.com"
+ADMIN_NAME="Nane"
+ADMIN_PHONE="PhoneNumber"
+ADMIN_EMAIL="AdminEmail"
 ADMIN_PASSWORD="your_admin_password_here"
 ```
 
